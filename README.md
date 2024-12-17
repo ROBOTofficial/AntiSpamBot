@@ -1,38 +1,25 @@
-# sv
+# Discordの荒らし対策BOT
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+不定期更新
 
-## Creating a project
+## セットアップ
 
-If you're seeing this, you've probably already done this step. Congrats!
+> bunを使っていますがnpmでも大丈夫です。
 
-```bash
-# create a new project in the current directory
-npx sv create
+### .envを作成
 
-# create a new project in my-app
-npx sv create my-app
+.env.exampleを元に作成してください
+
+### ライブラリのインストールとセットアップ
+
+```console
+bun install
+
+bun run build
 ```
 
-## Developing
+### 実行
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
+bun start
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
