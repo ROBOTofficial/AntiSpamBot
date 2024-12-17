@@ -12,7 +12,7 @@ class Main {
     }
 
     public async listen() {
-        this.app.listen(process.env.PORT);
+        this.app.listen(Number(process.env.PORT));
     }
 }
 
